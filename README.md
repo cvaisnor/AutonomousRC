@@ -3,10 +3,6 @@ Files for autonomous small-scale car build. Running DonkeyCar software.
 
 Build Progress: 
 
-Initial Jetson Nano case setup:
-
-![IMG_3531](https://user-images.githubusercontent.com/19898100/137026748-02a2c1d6-ef82-495c-855b-46caea072d63.jpg)
-
 Testing DC-DC stepdown converter on a LiPo I had. Jetson requires 5V input, but I found that if I did supply 5V in, then the Jetson lights would flash. 
 I turned the voltage up to around 5.35V and this solved the problem.
 
