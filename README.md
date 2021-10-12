@@ -7,7 +7,8 @@ Jetson requires 5V input, but I found that if I did supply 5V in, then the Jetso
 I turned the voltage up to around 5.35V on the DC-DC stepdown converter and this solved the problem. 
 6V battery used as input for the PCA9685 so the steering servo doesn't take power from the Jetson. 
 
-![IMG_3542](https://user-images.githubusercontent.com/19898100/137027449-9165fe3a-aecb-4e87-a37a-11b1dd9db739.jpg)
+![IMG_3542](https://user-images.githubusercontent.com/19898100/137029283-b3ea7f79-b2c0-4c14-8b03-a61c2b6e6764.jpeg)
+
 
 I went through a couple of build setups trying to incorportate the RC car body but it ended up being to difficult to access the components.
 
