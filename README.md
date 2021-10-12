@@ -3,12 +3,9 @@ Files for autonomous small-scale car build. Running DonkeyCar software.
 
 Build Progress: 
 
-Testing DC-DC stepdown converter on a LiPo I had. Jetson requires 5V input, but I found that if I did supply 5V in, then the Jetson lights would flash. 
-I turned the voltage up to around 5.35V and this solved the problem.
-
-![IMG_3535](https://user-images.githubusercontent.com/19898100/137027152-975da41d-9471-4b31-9dcb-065697f07043.jpg)
-
-Testing all of the components pre-build. 6V battery used as input for the PCA9685 so the steering servo doesn't take power from the Jetson. 
+Jetson requires 5V input, but I found that if I did supply 5V in, then the Jetson lights would flash. 
+I turned the voltage up to around 5.35V on the DC-DC stepdown converter and this solved the problem. 
+6V battery used as input for the PCA9685 so the steering servo doesn't take power from the Jetson. 
 
 ![IMG_3542](https://user-images.githubusercontent.com/19898100/137027449-9165fe3a-aecb-4e87-a37a-11b1dd9db739.jpg)
 
